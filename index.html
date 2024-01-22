@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="main">
+        <!-- navbar starts -->
+        <div class="navbar">
+            <h1 class="logo">e!</h1>
+            <div class="navbar-right">
+                <a href="#">Login</a>
+                <a href="#" class="outline">Create an account</a>
+            </div>
+        </div>
+
+        <!-- Heading of the Restaurant -->
+        <h1 class="heading">Breakfast Places in Mumbai</h1>
+
+        <!-- containing 2 Divs -->
+        <div class="container">
+            <!-- leftside of container => filter box-->
+            <div class="left-side">
+                <h3 class="Filters">Filters</h3>
+                <h4 class="select">Select Location</h4>
+                <select class="select-dropdown">
+                    <option>Select</option>
+                    <option>Delhi</option>
+                </select>
+                <!-- Cuisine Checkboxes -->
+
+                <h3 class="light-heading">Cuisine</h3>
+
+                <div class="checkbox-div">
+                    <input type="checkbox" />
+                    <span class="checkbox-items">North Indian</span>
+                </div>
+                <div class="checkbox-div">
+                    <input type="checkbox" />
+                    <span class="checkbox-items">South Indian</span>
+                </div>
+                <div class="checkbox-div">
+                    <input type="checkbox" />
+                    <span class="checkbox-items">Chineese</span>
+                </div>
+                <div class="checkbox-div">
+                    <input type="checkbox" />
+                    <span class="checkbox-items">Fast Food</span>
+                </div>
+                <div class="checkbox-div">
+                    <input type="checkbox" />
+                    <span class="checkbox-items">Street Food</span>
+                </div>
+                <!-- Cost for Two radio button options -->
+
+                <h3 class="light-heading">Cost For Two</h3>
+                <div class="checkbox-div">
+                    <input type="radio" />
+                    <span class="checkbox-items">Less than &#8377; 500</span>
+                </div>
+                <div class="checkbox-div">
+                    <input type="radio" />
+                    <span class="checkbox-items">&#8377; 500 to &#8377; 1000</span>
+                </div>
+                <div class="checkbox-div">
+                    <input type="radio" />
+                    <span class="checkbox-items">&#8377; 1000 to &#8377; 1500</span>
+                </div>
+                <div class="checkbox-div">
+                    <input type="radio" />
+                    <span class="checkbox-items">&#8377; 1500 to &#8377; 2000</span>
+                </div>
+                <div class="checkbox-div">
+                    <input type="radio" />
+                    <span class="checkbox-items">&#8377; 2000 +</span>
+                </div>
+
+                <!-- Sort radio button options -->
+
+                <h3 class="sort">sort</h3>
+                <div class="checkbox-div">
+                    <input type="radio" />
+                    <span class="checkbox-items">Price low to high</span>
+                </div>
+                <div class="checkbox-div">
+                    <input type="radio" />
+                    <span class="checkbox-items">Price high to low</span>
+                </div>
+            </div>
+            <!-- Rightside of container => Items box-->
+            <div class="right-side">
+                <div class="elem-1">
+                    <div class="item-1">
+                        <img src="img/lg.png" alt="">
+                        <div class="sub-item">
+                            <h2>The Big Chill Cakery</h2>
+                            <h4>FORT</h4>
+                            <p>Shop 1, Plot D, Samruddhi Complex, Chincholi …</p>
+                        </div>
+                    </div>
+                    <div class="border"></div>
+                    <div class="item-2">
+                        <div class="sub-item-1">
+                            <h4>CUISINES: </h4>
+                            <p>Bakery </p>
+                        </div>
+                        <div class="sub-item-1">
+                            <h4>COST FOR TWO:</h4>
+                            <p>₹700</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="elem-2">
+                    <div class="item-1">
+                        <img src="img/lg.png" alt="">
+                        <div class="sub-item">
+                            <h2>The Big Chill Cakery</h2>
+                            <h4>FORT</h4>
+                            <p>Shop 1, Plot D, Samruddhi Complex, Chincholi …</p>
+                        </div>
+                    </div>
+                    <div class="border"></div>
+                    <div class="item-2">
+                        <div class="sub-item-1">
+                            <h4>CUISINES: </h4>
+                            <p>Bakery </p>
+                        </div>
+                        <div class="sub-item-1">
+                            <h4>COST FOR TWO:</h4>
+                            <p>₹700</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Pagination Block  -->
+
+        <div class="pagination">
+            <a href="#">&laquo;</a>
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <a href="#">6</a>
+            <a href="#">&raquo;</a>
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>
